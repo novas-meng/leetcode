@@ -1,3 +1,5 @@
+package easy;
+
 /**
  * Created by novas on 2016/10/14.
  */

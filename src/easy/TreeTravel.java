@@ -1,6 +1,6 @@
-import java.lang.reflect.Array;
+package easy;
+
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.Stack;
 
 /**
@@ -95,10 +95,10 @@ public class TreeTravel {
         }
     }
     /*
-    public static String getStackString(Stack<TreeNode> stack)
+    public static String getStackString(Stack<easy.TreeNode> stack)
     {
         StringBuilder sb=new StringBuilder();
-        Iterator<TreeNode> iterator=stack.iterator();
+        Iterator<easy.TreeNode> iterator=stack.iterator();
         while (iterator.hasNext())
         {
             sb.append(iterator.next().val+"->");
@@ -106,11 +106,11 @@ public class TreeTravel {
         return sb.toString().substring(0,sb.toString().length()-2);
     }
 
-    public static void stackPostTravel(TreeNode root)
+    public static void stackPostTravel(easy.TreeNode root)
     {
-        Stack<TreeNode> stack=new Stack<>();
-        TreeNode last=null;
-        TreeNode p=root;
+        Stack<easy.TreeNode> stack=new Stack<>();
+        easy.TreeNode last=null;
+        easy.TreeNode p=root;
         ArrayList<String> list=new ArrayList<>();
         while (!stack.isEmpty()||p!=null)
         {

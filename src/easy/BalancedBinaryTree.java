@@ -1,10 +1,5 @@
-import java.awt.*;
-import java.math.BigDecimal;
-import java.math.RoundingMode;
-import java.net.InetAddress;
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.Calendar;
+package easy;
+
 import java.util.HashMap;
 import java.util.Stack;
 

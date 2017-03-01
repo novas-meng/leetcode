@@ -1,3 +1,5 @@
+package easy;
+
 import javax.swing.*;
 import java.util.ArrayList;
 import java.util.LinkedHashSet;
