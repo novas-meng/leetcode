@@ -1,3 +1,5 @@
+package easy;
+
 import java.util.concurrent.*;
 
 class MyRunnable implements Callable
@@ -40,7 +42,7 @@ class Main
         service.submit(new MyRunnable());
         for (int i=0;i<1000;i++)
         {
-           // service.submit(new MyRunnable());
+           // service.submit(new easy.MyRunnable());
         }
         Future future=service.submit(new MyRunnable2());
         try {
